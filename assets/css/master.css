@@ -1,0 +1,76 @@
+.debug header{
+  background: red;
+}
+
+
+.debug aside{
+  background: blue;
+}
+
+.debug .page{
+  background: yellow;
+}
+
+.debug .square{
+  border: 1px solid black;
+  background: green;
+  width: 100px;
+  height: 100px;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  height: 100px;
+}
+
+main{
+  height: calc(100vh - 100px);
+
+  display: flex;
+}
+
+aside{
+  width: 200px;
+}
+
+.page{
+  width: calc(100vw - 200px);
+  overflow-y: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1199px){
+
+}
+
+@media all and (max-width: 991px){
+
+}
+
+@media all and (max-width: 767px){
+
+}
